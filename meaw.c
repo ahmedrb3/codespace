@@ -1,14 +1,8 @@
 #include <stdio.h>
 
 int main(void){
-int i = 0;
-    while(i < 3)
+    for(int i = 0 ; i <= 10 ; i += 2)
     {
-     printf("meow\n");
-     i += 1;
-    }
-    for()
-    {
-        printf("meow\n");
+        printf("%i\n", i);
     }
 }
