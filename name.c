@@ -1,7 +1,15 @@
 #include <stdio.h>
 #include <cs50.h>
 int main(void){
-    long num1 = get_int("num1: ");
-    long num2 = get_int("num2: ");
-    printf("%li\n", num1 + num2);
+    int x = get_int("x: ");
+    int y = get_int("y: ");
+    if(x < y){
+        printf("x is less than y\n");
+    }
+    else if(x > y){
+        printf("x is not less than y\n");
+    }
+    else if(x == y){
+        printf("x = y\n");
+    }
 }
