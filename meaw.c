@@ -7,4 +7,8 @@ int i = 0;
      printf("meow\n");
      i += 1;
     }
+    for()
+    {
+        printf("meow\n");
+    }
 }
