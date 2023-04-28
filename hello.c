@@ -2,6 +2,7 @@
 #include <cs50.h>
 
 int main(void){
-    string answer = get_string("whats your name? ");
-    printf("hello, %s\n",answer);
+    int num1 = 5;
+    int num2 = 4;
+    printf("%d ",num1 + num2);
 }
