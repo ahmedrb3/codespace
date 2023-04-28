@@ -1,9 +1,10 @@
 #include <stdio.h>
 
 int main(void){
-
-    while(1 < 3)
+int i = 0;
+    while(i < 3)
     {
      printf("meow\n");
+     i += 1;
     }
 }
