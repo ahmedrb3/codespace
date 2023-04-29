@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-void hello(int x){
-    printf("%i\n", x);
+void meow(void){
+    for(int i = 0; i < 3; i++){
+        printf("meow\n");
+    }
 }
-
 int main(void){
-    hello(10);
-
+    meow();
 }
