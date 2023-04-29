@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-void meow(int n){
-    for(int i = 0; i < n; i++){
-        printf("meow\n");
+void sum(int n1, int n2){
+    int result = n1 + n2;
+    printf("%i\n", result);
     }
-}
 int main(void){
-    meow(5);
+    sum(5,7);
 }
