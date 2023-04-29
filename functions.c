@@ -6,5 +6,6 @@ int sum(int n1, int n2){
     }
 int main(void){
     int x = sum(5,7);
-    printf("%i\n", x);
+    int result = x + 8;
+    printf("%i\n", result);
 }
