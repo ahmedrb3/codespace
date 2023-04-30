@@ -4,7 +4,7 @@ int sum(int n1, int n2);
 
 
 int main(void){
-    int printf("Enter num1&2: ",x = num1, num2);
+    int printf("Enter num1: ", num1);
     int result = x + 8;
     printf("%i\n", result);
 }
