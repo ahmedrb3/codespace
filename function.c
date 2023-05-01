@@ -12,5 +12,5 @@ int main(void){
 }
 
 float discount(float regular, int percent){
-    return regular * (100 - percent);
+    return regular * (100 - percent)/100;
 }
