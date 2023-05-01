@@ -2,7 +2,10 @@
 #include <cs50.h>
 
 int main(void){
-    for(int i = 0; i < 4; i++){
-        printf("?\n");
+
+    int count = get_int("count: ");
+    for(int i = 0; i < count; i++){
+        printf("?");
     }
+    printf("\n");
 }
