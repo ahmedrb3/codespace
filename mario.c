@@ -10,8 +10,9 @@ int main(void){
 
     for(int i = 0; i < count; i++){
         for(int j = 0; j < count; j++){
-            printf("#")
+            printf("#");
         }
+            printf("\n");
     }
-    printf("\n");
+
 }
