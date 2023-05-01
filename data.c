@@ -10,3 +10,7 @@ int main(void){
 
 
 }
+
+    const int x = 20
+    x = 30;
+    printf("%i \n",x);
