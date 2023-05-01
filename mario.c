@@ -9,7 +9,9 @@ int main(void){
     }while(count < 1);
 
     for(int i = 0; i < count; i++){
-        printf("#");
+        for(int j = 0; j < count; j++){
+            printf("#")
+        }
     }
     printf("\n");
 }
