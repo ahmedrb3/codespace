@@ -4,8 +4,8 @@
 int main(void){
 
     int x = get_int("x: ");
-    float y = get_float("y: ");
-    printf("%.2f \n", x / y);
+    int y = get_int("y: ");
+    printf("%.2f \n", (float) x / (float) y);
 
 
 
