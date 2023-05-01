@@ -9,7 +9,7 @@ int main(void){
     }while(count < 1);
 
     for(int i = 0; i < count; i++){
-        printf("?");
+        printf("#");
     }
     printf("\n");
 }
