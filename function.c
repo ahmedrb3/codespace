@@ -6,10 +6,11 @@ float discount(float regular);
 int main(void){
 
     float regular = get_float("regular price: ");
-    float sale = discount(regular);
+    int percent = get_int("percent of: ");
+    float sale = discount(regular, percent);
     printf("sale price = %.2f\n", sale);
 }
 
-float discount(float regular){
+float discount(float regular, int ){
     return regular * .85;
 }
