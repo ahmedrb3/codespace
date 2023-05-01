@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 
-float discount(float regular);
+float discount(float regular, int percent);
 
 int main(void){
 
