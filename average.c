@@ -2,6 +2,11 @@
 #include <cs50.h>
 
 int main(void){
-    int score[3] = {72, 73, 33};
-    printf("average %.2f\n", (score[0] + score[1] + score[2])/3.0);
+    int length = get_int("How many score? ");
+    int scores[length];
+    int result = 0;
+    for(int i = 0; i < length; i++){
+    scores[i] = get_int("number: ");
+    }
+    printf("average %.2f\n", (scores[0] + scores[1] + scores[2])/3.0);
 }
