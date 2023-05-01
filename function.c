@@ -2,7 +2,8 @@
 #include <cs50.h>
 
 float discount(float regular){
-    float regular
+    float sale = regular * .85;
+    return sale;
 }
 
 int main(void){
