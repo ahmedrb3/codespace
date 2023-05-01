@@ -11,6 +11,6 @@ int main(void){
     printf("sale price = %.2f\n", sale);
 }
 
-float discount(float regular, int ){
-    return regular * .85;
+float discount(float regular, int percent){
+    return regular * (100 - percent);
 }
