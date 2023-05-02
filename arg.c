@@ -2,5 +2,5 @@
 #include <cs50.h>
 
 int main(int argc, string argv[]){
-    printf("%i\n",argc)
+    printf("%i\n",argc);
 }
