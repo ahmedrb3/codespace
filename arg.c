@@ -7,5 +7,5 @@ int main(int argc, string argv[]){
     return 1;
     }
     printf("hello, %s\n",agrv[1]);
-
+    return 0;
 }
