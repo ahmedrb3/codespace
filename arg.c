@@ -1,4 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
 
-int main(int argc)
+int main(int argc, string argv[]){
+    printf("%i\n",a)
+}
