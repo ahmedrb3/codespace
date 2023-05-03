@@ -9,6 +9,6 @@ void rec(int n){
     if(n == 0){
         return;
     }
-    preintf("hello world\n");
+    printf("hello world\n");
     rec(n - 1);
 }
