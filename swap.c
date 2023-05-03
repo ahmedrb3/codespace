@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+
 void swap(int a, int b);
 int main(void){
     int x = 1;
