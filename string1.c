@@ -1,7 +1,11 @@
 #include <stdio.h>
 #include <cs50.h>
 int main(void){
-    int
+    int numbers[] = {4,7,6,9};
+    printf("%i\n", *numbers);
+    printf("%i\n", *(numbers+1));
+    printf("%i\n", *(numbers+2));
+    printf("%i\n", *(numbers+3));
 }
 
 //int main(void){
