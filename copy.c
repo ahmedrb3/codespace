@@ -13,6 +13,7 @@ int main(void){
     t[0] = toupper(t[0]);
     printf("s: %s\n", s);
     printf("t: %s\n", t);
+    free(t);
 }
 //  for(int i = 0; i < strlen(s) + 1; i++){
 //      t[i] = s[i];}
