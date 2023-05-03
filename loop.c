@@ -1,12 +1,14 @@
 #include <stdio.h>
 #include <cs50.h>
-
-void fun(int n){
-    for(n = 0){
-        return;
-    }
-    printf("hello, world");
-}
+void rec(int n);
 
 int main(void){
+    rec(3);
+}
+void rec(int n){
+    if(n == 0){
+        return;
+    }
+    preintf("hello world\n");
+    rec(n - 1);
 }
