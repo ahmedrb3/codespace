@@ -5,7 +5,7 @@
 typedef struct {
     string name;
     string number;
-    
+    int age;
 }pb;
 
 int main(void){
@@ -15,9 +15,12 @@ int main(void){
     people[0].name = "ahmed";
     people[0].number = "012456";
 
+    people[1].name = "devid";
+    people[1].number = "010123";
+
     for(int i = 0; i < 2; i++ ){
-        if(strcmp(names[i], "ali") == 0){
-            printf("Found %s\n", numbers[i]);
+        if(strcmp(people[i].name, "ahmed") == 0){
+            printf("Found %s\n", people[i].number);
             return 0;
         }
     }
