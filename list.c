@@ -32,6 +32,14 @@ int main(void){
     n->number = 3;
     n->next = NULL;
     list->next->next = n;
+
+    n = malloc(sizeof(node));
+    if(n != NULL){
+        n->number=0;
+        n->next=NULL;
+        n->next = list;
+        list = n;
+    }
     for(node* tmp = list;tmp != NULL;tmp = tmp->next){
         printf("%i\n", tmp->number);
     }
@@ -40,5 +48,5 @@ int main(void){
         free(list);
         list = tmp;
     }
-    
+
 }
