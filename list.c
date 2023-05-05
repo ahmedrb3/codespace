@@ -32,6 +32,6 @@ int main(void){
     n->number = 3;
     n->next = NULL;
     list->next->next = n;
-    for(){
+    for(int i = 3;i ){
     }
 }
