@@ -5,22 +5,22 @@ int main(void){
     list[0] = 1;
     list[1] = 2;
     list[2] = 3;
-    tmp[4];
+    int tmp[4];
     for(int i = 0; i < 3;i++){
         tmp[i] = list[i];
     }
     tmp[3] = 4;
     for(int i = 0;i < 4;i++){
-        
+        printf("%i\n", tmp[i]);
     }
 }
-int sec(){
+//int sec(){
 //    int list[3];
-    int *list = malloc(3*sizeof(int));
-    if(list == NULL){
-        return 1;
-    }
-    *list = 1;
-    *(list+1) = 2;
-    *(list+2) = 3;
-}
+//    int *list = malloc(3*sizeof(int));
+//    if(list == NULL){
+//        return 1;
+//    }
+//    *list = 1;
+//    *(list+1) = 2;
+//    *(list+2) = 3;
+//}
