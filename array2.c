@@ -14,10 +14,6 @@ int main(){
         free(list);
         return 1;
     }
-    for(int i = 0;i < 3;i++){
-        tmp[i] = list[i];
-    }
-    free(list);
     tmp[3] = 4;
     list = tmp;
     for(int i = 0;i < 4;i++){
