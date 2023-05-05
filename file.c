@@ -2,7 +2,7 @@
 #include <cs50.h>
 
 int main(void){
-    FILE* myfile = fopen{"phonebook.csv","w"};
+    FILE* myfile = fopen("phonebook.csv","w");
     char* name = get_string("name: ");
     char* phone = get_string("phone: ");
     fprintf(myfile, "%s, &s\n", name, phone);
