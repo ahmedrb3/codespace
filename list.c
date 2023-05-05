@@ -16,4 +16,17 @@ int main(void){
     n->next = NULL;
     list = n;
     n = malloc(sizeof(node));
+    if(n == NULL){
+        free(list);
+        return 1;
+    }
+    n->number = 2;
+    n->next = NULL;
+    list->next = n;
+    n = malloc(sizeof(node));
+    if(n == NULL){
+        free(list);
+        free(lise->next);
+        return 1;
+    }
 }
