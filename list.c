@@ -25,7 +25,7 @@ int main(void){
     list->next = n;
     n = malloc(sizeof(node));
     if(n == NULL){
-        free(lise->next);
+        free(list->next);
         free(list);
         return 1;
     }
