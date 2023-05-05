@@ -6,5 +6,7 @@ typedef struct node{
 }
 node;
 int main(void){
-    node
+    node* list = NULL;
+    node *n = malloc(sizeof(node));
+    
 }
