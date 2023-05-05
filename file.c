@@ -8,6 +8,7 @@ int main(void){
     fprintf(myfile, "%s, &s\n", name, phone);
     fclose(myfile);
     }
+    
 //mood            delete       create
 //r => read       no           no
 //w => write      yes          yes
