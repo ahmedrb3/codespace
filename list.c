@@ -40,4 +40,5 @@ int main(void){
         free(list);
         list = tmp;
     }
+    
 }
