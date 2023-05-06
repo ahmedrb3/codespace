@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-void print_tree(node* root);
+
+
 typedef struct node{
     int number;
     struct node *left;
@@ -8,10 +9,12 @@ typedef struct node{
 }
 node;
 
+void print_tree(node* root);
+
 int main(){
     node *tree = NULL;
     node *n = malloc(sizeof(node));
-    for(n == NULL){
+    if(n == NULL){
         return 1;
     }
     n->number = 2;
@@ -19,7 +22,7 @@ int main(){
     n->right = NULL;
     tree = n;
     n = malloc(sizeof(node));
-        for(n == NULL){
+        if(n == NULL){
         return 1;
     }
     n->number = 1;
@@ -27,7 +30,7 @@ int main(){
     n->right = NULL;
     tree->left = n;
     n = malloc(sizeof(node));
-        for(n == NULL){
+        if(n == NULL){
         return 1;
     }
     n->number = 3;
