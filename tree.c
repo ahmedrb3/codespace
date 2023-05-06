@@ -37,9 +37,11 @@ int main(){
 
     print_tree(tree);
 }
+
 void print_tree(node* root){
     if(root == NULL){
         return;
     }
     printf("%i\n", root->number);
+    print_tree(root->left);
 }
