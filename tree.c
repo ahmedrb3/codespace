@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-void print_tree(node* root)
+void print_tree(node* root);
 typedef struct node{
     int number;
     struct node *left;
