@@ -38,12 +38,13 @@ int main(){
     n->right = NULL;
     tree->right = n;
 
-    search(tree, 3);
+    search(tree, 5);
 
 }
 
 int search(node* tree, int number){
     if(tree == NULL){
+        printf("not found\n");
         return 1;
     }
     else if(number < tree->number){
@@ -52,7 +53,7 @@ int search(node* tree, int number){
     }
     else if(number > tree->number){
         printf("go right\n");
-        return search(tree->left, number);
+        return search(tree->right, number);
     }
     else{
         printf("found\n");
