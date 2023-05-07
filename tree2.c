@@ -42,8 +42,6 @@ int main(){
 
 }
 
-
-
 int search(node* tree, int number){
     if(tree == NULL){
         return 1;
