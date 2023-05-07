@@ -6,7 +6,10 @@ int main(void){
 if(x < y){
     printf("x is less then y\n");
 }
+else if(x == y){
+    printf("x == y");
+}
 else{
-    printf("x is not less then y\n")
+    printf("x is not less then y\n");
 }
 }
