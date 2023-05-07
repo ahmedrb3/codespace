@@ -49,10 +49,16 @@ int search(node* tree, int number){
         return 1;
     }
     else if(number < tree->number){
+        printf("go left\n");
         return search(tree->left, number);
     }
     else if(number > tree->number){
-        
+        printf("go right\n");
+        return search(tree->left, number);
+    }
+    else{
+        printf("found\n");
+        return 0;
     }
 
 }
