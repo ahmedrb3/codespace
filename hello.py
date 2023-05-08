@@ -1,2 +1,2 @@
-num = True
+num = "hello"
 print(type(num))
