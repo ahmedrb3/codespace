@@ -1,2 +1,1 @@
-num = "hello"
-print(type(num))
+num = [1,2,3]
