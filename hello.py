@@ -1,8 +1,4 @@
-x = 20
-y = 20
-if x < y:
-    print("x is less then y")
-elif x == y:
-    print("x == y")
-else:
-    print("x is not less then y")
+i = 0
+while 1 < 3:
+    print("meow")
+    i += 1
