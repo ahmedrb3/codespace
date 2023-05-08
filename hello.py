@@ -1,3 +1,2 @@
-num = 20
-type(num)
+num = True
 print(type(num))
