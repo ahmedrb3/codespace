@@ -1,2 +1,5 @@
-num = [1,2,3]
-type
+import cs50
+
+answer = cs50.get_string("what is your name? ")
+
+print(f"hello {answer}")
