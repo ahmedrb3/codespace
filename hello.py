@@ -1,4 +1,2 @@
-i = 0
-while 1 < 3:
+for i in [0,1,2]:
     print("meow")
-    i += 1
