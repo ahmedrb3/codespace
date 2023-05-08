@@ -1,5 +1,3 @@
-import cs50
-
-answer = cs50.get_string("what is your name? ")
+answer = input("what is your name? ")
 
 print(f"hello {answer}")
