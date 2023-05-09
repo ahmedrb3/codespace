@@ -1,3 +1,4 @@
-x = int(input("x: "))
-y = int(input("y: "))
-print(x + y)
+
+
+number = int(input("number"))
+print(number)
