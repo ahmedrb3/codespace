@@ -3,4 +3,4 @@ try:
     num2 = int(input("num2: "))
     print(num1 + num2)
 except:
-    print
+    print("the value is not an int")
