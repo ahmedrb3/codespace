@@ -10,6 +10,7 @@ answer = input("what is your name? ")
 name(answer)
 
 def sum(num1, num2):
-    print(num1 + num2)
+    return num1 + num2
 
-sum(5, 7)
+result = sum(5,7)
+print(result + 2)
