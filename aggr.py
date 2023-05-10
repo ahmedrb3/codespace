@@ -1,6 +1,6 @@
 from cs50 import get_string
 
-s = get_string("Do You Agree? ")
+s = get_string("Do You Agree? ").lower()
 if s.lower() in ['y','yes']:
     print("Agreed")
 elif s.upper() in ["N", "NO"] :
