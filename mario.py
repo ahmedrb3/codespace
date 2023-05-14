@@ -8,4 +8,6 @@ def main():
 def get_positive():
     while true:
         n = get_int("n: ")
+        if n > 0:
+            break
 main()
