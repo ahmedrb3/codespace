@@ -7,8 +7,12 @@ def main():
 
 def get_positive():
     while True:
-        n = int(input("n: "))
-        if n > 0:
-            break
+        try:
+            n = int(input("n: "))
+            if n > 0:
+                break
+        except:
+            print("Error that's not an integer")
+            
     return n
 main()
