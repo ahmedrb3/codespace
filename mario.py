@@ -1,4 +1,4 @@
 from cs50 import get_int
-h
-for i in range(3):
+height = get_int("height: ")
+for i in range(height):
     print("#")
