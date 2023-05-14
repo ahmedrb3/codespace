@@ -1,4 +1,4 @@
-from cs50 import get_int
+
 
 def main():
     height = get_positive()
@@ -7,7 +7,7 @@ def main():
 
 def get_positive():
     while True:
-        n = get_int("n: ")
+        n = int(input("n: "))
         if n > 0:
             break
     return n
