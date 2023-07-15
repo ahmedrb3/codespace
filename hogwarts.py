@@ -11,4 +11,8 @@ with open("houses.csv","r") as file:
     reader = csv.reader(file)
     next(reader)
     for row in reader:
-        print(row[1])
+        house = row[1]
+        houses[house] += 1
+
+for house in houses:
+    print(f"{house}: {houses[house]}")
