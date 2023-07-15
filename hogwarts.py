@@ -8,10 +8,9 @@ houses = {
 }
 
 with open("houses.csv","r") as file:
-    reader = csv.reader(file)
-    next(reader)
+    reader = csv.DictReader(file)
     for row in reader:
-        house = row[1]
+        house = row["House"]
         houses[house] += 1
 
 for house in houses:
