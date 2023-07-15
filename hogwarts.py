@@ -9,5 +9,6 @@ houses = {
 
 with open("houses.csv","r") as file:
     reader = csv.reader(file)
+    next(reader)
     for i in reader:
         print(i)
